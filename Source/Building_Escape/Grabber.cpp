@@ -31,7 +31,7 @@ void UGrabber::FindPhysicsHandle()
 	if (PhysicsHandle == nullptr)
 	{
 		UE_LOG(LogTemp, Error, TEXT("%s , n'a pas de composant PhisycsHandle"),
-			*(GetOwner()->GetName()));
+			   *(GetOwner()->GetName()));
 	}
 }
 
